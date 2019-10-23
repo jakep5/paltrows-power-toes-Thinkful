@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Content from './Content'
+import {Link} from 'react-router-dom';
 import './Nav.css'
 
 export default class Nav extends Component {
