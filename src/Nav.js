@@ -7,15 +7,15 @@ export default class Nav extends Component {
   render() {
     return (
       <Content className='Nav'>
-        <a href='/'>
+        <Link to="/">
           Home
-        </a>
-        <a href='/about'>
+        </Link>
+        <Link to="/about">
           About
-        </a>
-        <a href='/workouts'>
+        </Link>
+        <Link to="/workouts">
           Workouts
-        </a>
+        </Link>
       </Content>
     )
   }
